@@ -1,0 +1,386 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --xxxfont: 38px;
+    --xxfont: 32px;
+    --xfont: 24px;
+    --lfont: 20px;
+    --mfont: 18px;
+    --sfont: 14px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+} 
+.proff-hiss .container {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+@media (max-width:1100px) {
+    .proff-hiss .container {
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+    }
+  }
+/* 0 start card of user */
+.userr-cardd {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    border-radius:6px;
+    flex:1.6;
+    height:fit-content;
+    padding-bottom:20px;
+    border:5px solid black;
+    width: 100%;
+}
+
+.picc-cardd {
+ background-color:#007BFF;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width:100%;
+ padding-top:60px;
+}
+.picc {
+    padding:10px;
+    background-color:white;
+    border:5px solid #ccc;
+}
+.picc-imagg {
+    width:200px;
+}
+.divv-userr-namee {
+
+}
+
+.hh-userr-namee {
+    color:white;
+    font-size:var(--xxxfont);
+}
+
+.userr-namee {
+    border:none;
+}
+
+.editt-fieldss {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    font-size:var(--xx);
+}
+
+.my-data-titlee {
+    font-weight: bold;
+    margin-left:10px;
+    font-size:var(--xxfont);
+}
+
+.battonn-editt {
+    color: white;
+    background-color: #28A745;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right:10px;
+    font-size: var(--xfont);
+}
+
+.userr-fieldss {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    padding:20px 0px;
+}
+
+.firstt-fieldd {
+    border-top: 3px solid #EBEBEB;
+    border-right: 3px solid #EBEBEB;
+    border-left: 3px solid #EBEBEB;
+    width:90%;
+
+}
+
+.lastt-fieldd {
+    border-bottom:3px solid #EBEBEB;
+}
+.hh-userr-data {
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    padding:1px 60px;
+}
+
+.userr-dataa {
+    width: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:none;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: var(--xxfont);
+    font-weight:bold;
+    width:100%;
+}
+
+.userr-dataa:focus::placeholder {
+    color: #5C6F8C;
+}
+.userr-dataa::placeholder {
+    color:black;
+}
+.userr-dataa:focus {
+    outline: transparent;
+    border-bottom:2px #1772EB solid;
+}
+
+.spann-dataa {
+    color:#959294;
+    font-weight:bold;
+
+}
+.divv-battonn-submitt {
+}
+
+.battonn-submitt {
+    color: white;
+    background-color:#E60278;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top:30px;
+    font-size:var(--xfont);
+}
+
+
+/* 1 card of user */
+/* 0 card of his */
+
+.historyy-partt {
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction:column;
+    border-radius:6px;
+    height:fit-content;
+    padding-bottom:20px;
+    border:5px solid black;
+    flex:2;
+    margin-left:30px;
+    width: 100%;
+}
+@media (max-width:1100px) {
+    .historyy-partt {
+        margin-left:0px;
+        margin-top:20px;
+    }
+  }
+.hitorry-containerr {
+    width:100%;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    background-color:#F2F2F2;
+}
+
+.historyy-titlee {
+    border-bottom:2px solid black;
+    width: calc(100% - 25px);
+    padding-bottom:7px;
+    font-size:var(--xxxfont);
+
+}
+
+.Activityy-titlee {
+    background-color:#27AE61;
+    color:white;
+    padding: 5px 0px 5px 10px;
+    width: calc(100% - 25px);
+    font-size:var(--xxxfont);
+    margin:10px 0px;
+}
+
+.historyy-activities {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width:calc(100% - 25px);
+    flex-direction:column;
+    padding:30px 0px;
+}
+
+.historyy-activities > div:nth-child(even) {
+    background-color:#F2F2F2;
+  }
+  
+  .historyy-activities > div:nth-child(odd) {
+    background-color:white;
+  }
+.onee-activityy {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding:15px 0px;
+}
+
+.activityy-headd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom:2px solid black;
+    margin-left: 6px;
+}
+
+.rightt-photoo {
+    width:30px;
+    margin-right:5px;
+}
+
+.activityy-namee {
+    width: 100%;
+    font-size:var(--xxfont);
+}
+
+.timee-detielss {
+
+
+}
+
+.hh-timee-detielss {
+    padding:0px 8px;
+    margin:10px 0px;
+    font-size:var(--xxfont);
+}
+
+.datee-boxx {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.datee-infoo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:0px 8px;
+    margin:10px 0px;
+}
+.titt-fieldd {
+    justify-self:flex-start;
+    flex: 1;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:8px 0px;
+    color:#78787b;
+    font-size:var(--xxfont);
+}
+
+.datee-valuee {
+    justify-self: center;
+    flex: 1;
+    font-weight: bold;
+    font-size:20px;
+    font-size:var(--xfont);
+}
+
+.statee-boxx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:0px 8px;
+}
+
+.statee-fieldd {
+    justify-self:flex-start;
+    flex: 1;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:8px 0px;
+}
+.statee-spann {
+    color:white;
+    background-color:#F59E0B;
+    padding:8px 10px;
+    padding-left:5px;
+    margin-left:-5px;
+    border-radius:6px;
+    font-size:30px;
+}
+.statee-valuee {
+    justify-self: center;
+    flex: 1;
+    font-weight: bold;
+    font-size:20px;
+    font-size:30px;
+    color:#F59E0B;
+}
+
+.dell-battonn {
+    color: white;
+    background-color:#d50000;
+    padding: 8px 10px;
+    margin-left: 4px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size:var(--lfont);
+}
+/* 1 card of his */

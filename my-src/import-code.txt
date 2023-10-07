@@ -1,0 +1,7 @@
+  {
+    path: '/TestUploadView',
+    name: 'TestUploadView',
+    component: TestUploadView,
+  }
+
+

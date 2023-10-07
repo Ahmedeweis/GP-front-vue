@@ -1,0 +1,14 @@
+http://localhost:8080/dashboard
+http://localhost:8080/author_profile_user
+http://localhost:8080/home_admin
+http://localhost:8080/admin_users
+http://localhost:8080/admin-author-profile
+http://localhost:8080/add_article
+http://localhost:8080/EditeUserView
+file:///E:/Lan_Production/full-gethub/GP/src/views/index.html
+file:///E:/Lan_Production/full-gethub/GP/src/views/log-in.html
+
+
+
+
+
